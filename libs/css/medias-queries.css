@@ -1,0 +1,141 @@
+@media only screen and (max-width: 940px) 
+{
+	.box-main
+	{
+		padding: 0;
+	}
+
+	.search-serv
+	{
+		width: 85%;
+		padding: 5%;
+	}
+	.search-serv i
+	{
+		display: none;
+	}
+	.search-serv select
+	{
+		width: 100%;
+		margin-bottom: 20px;
+	}
+
+	/* servidores site */
+	.preview-box-profile
+	{
+		width: 96.5%;
+		margin: 0 1% 10% 1%;
+		padding: 1% 0.5%;
+	}
+
+	/* admin */
+	.box-info-pet
+	{
+		width: 100%;
+		margin: 0;
+		margin-bottom: 10%;
+	}
+}
+@media only screen and (max-width: 1024px) 
+{
+	/*home page*/
+	.box-three
+	{
+		width: 100%;
+		margin-bottom: 15%;
+	}
+
+	/*login*/
+	#box-login, #box-register
+	{
+		width: 90%;
+	}
+	.link-login, .user-logado
+	{
+		width: auto;
+		position: absolute;
+		right: 15px;
+		margin-top: 1.5vh;
+	}
+
+	/*admin*/
+	.sidebar, .painel .logout
+	{
+		display: none;
+	}
+	.bar-menu-mobile
+	{
+		display: block;
+	}
+	.menu-mobile
+	{
+		background-color: #fff;	
+		height: 100%;
+		position: absolute;
+		width: 100%;
+		z-index: 999;
+	}
+	.menu-mobile .photo-user
+	{
+		width: 20%;
+	}
+	.box-content
+	{
+		margin: 7vh 1% 0 1%;
+		width: 98%;
+	}
+	table
+	{
+		display: block;
+		overflow-x: scroll;
+	}
+	.table-mobile td, .box-profile input[type="text"], .box-profile input[type="number"], .box-profile select, .box-profile input[type="time"]
+	{
+		width: 100%;
+		display: block;
+	}
+	.table-mobile input[type="text"], .table-mobile select, .table-mobile textarea
+	{
+		width: 98%;
+	}
+	.table-mobile input[type="submit"]
+	{
+		width: 80%;
+	}
+	/*admin perfil*/
+	.form-profile label
+	{
+		width: 100%;
+		text-align: left !important;
+	}
+
+	/*perfil único*/
+	/* perfil unico */
+	.sidebar-profile
+	{
+		width: 95%;
+	}
+	.content-side
+	{
+		width: 90%;
+		margin: 5%;
+	}
+	.photo-profile
+	{
+		width: 30%;
+		margin-right: 5%;
+	}
+	.info-profile, .photo-profile
+	{
+		vertical-align: top;
+		display: inline-block;
+	}
+	.info-profile
+	{
+		width: 60%;
+	}
+	.photo-profile img
+	{
+		width: 100%;
+	}
+}
